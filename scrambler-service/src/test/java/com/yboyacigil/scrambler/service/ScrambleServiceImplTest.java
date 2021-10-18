@@ -1,12 +1,10 @@
 package com.yboyacigil.scrambler.service;
 
 import lombok.extern.slf4j.Slf4j;
-import lombok.val;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Slf4j
 class ScrambleServiceImplTest {
@@ -68,4 +66,4 @@ class ScrambleServiceImplTest {
         assertEquals(text.length(), result.length());
     }
 
-    }
+}
